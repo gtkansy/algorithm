@@ -1,0 +1,6 @@
+/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles/BubbleSort.dir
+/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles/MergeSort.dir
+/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles/SelectSort.dir
+/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles/InsertionSort.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Sort.dir/Sort/BubbleSort.cpp.o CMakeFiles/Sort.dir/Sort/SelectSort.cpp.o CMakeFiles/Sort.dir/Sort/InsertionSort.cpp.o  -o Sort 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/maopao.dir/BubbleSort.cpp.o  -o maopao 
