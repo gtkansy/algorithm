@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named HeapSort
+
+# Build rule for target.
+HeapSort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 HeapSort
+.PHONY : HeapSort
+
+# fast build rule for target.
+HeapSort/fast:
+	$(MAKE) -f CMakeFiles/HeapSort.dir/build.make CMakeFiles/HeapSort.dir/build
+.PHONY : HeapSort/fast
+
+#=============================================================================
+# Target rules for targets named QuickSort
+
+# Build rule for target.
+QuickSort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 QuickSort
+.PHONY : QuickSort
+
+# fast build rule for target.
+QuickSort/fast:
+	$(MAKE) -f CMakeFiles/QuickSort.dir/build.make CMakeFiles/QuickSort.dir/build
+.PHONY : QuickSort/fast
+
+#=============================================================================
 # Target rules for targets named BubbleSort
 
 # Build rule for target.
@@ -189,6 +215,33 @@ Sort/BubbleSort.cpp.s:
 	$(MAKE) -f CMakeFiles/BubbleSort.dir/build.make CMakeFiles/BubbleSort.dir/Sort/BubbleSort.cpp.s
 .PHONY : Sort/BubbleSort.cpp.s
 
+Sort/HeapSort.o: Sort/HeapSort.cpp.o
+
+.PHONY : Sort/HeapSort.o
+
+# target to build an object file
+Sort/HeapSort.cpp.o:
+	$(MAKE) -f CMakeFiles/HeapSort.dir/build.make CMakeFiles/HeapSort.dir/Sort/HeapSort.cpp.o
+.PHONY : Sort/HeapSort.cpp.o
+
+Sort/HeapSort.i: Sort/HeapSort.cpp.i
+
+.PHONY : Sort/HeapSort.i
+
+# target to preprocess a source file
+Sort/HeapSort.cpp.i:
+	$(MAKE) -f CMakeFiles/HeapSort.dir/build.make CMakeFiles/HeapSort.dir/Sort/HeapSort.cpp.i
+.PHONY : Sort/HeapSort.cpp.i
+
+Sort/HeapSort.s: Sort/HeapSort.cpp.s
+
+.PHONY : Sort/HeapSort.s
+
+# target to generate assembly for a file
+Sort/HeapSort.cpp.s:
+	$(MAKE) -f CMakeFiles/HeapSort.dir/build.make CMakeFiles/HeapSort.dir/Sort/HeapSort.cpp.s
+.PHONY : Sort/HeapSort.cpp.s
+
 Sort/InsertionSort.o: Sort/InsertionSort.cpp.o
 
 .PHONY : Sort/InsertionSort.o
@@ -243,6 +296,33 @@ Sort/MergeSort.cpp.s:
 	$(MAKE) -f CMakeFiles/MergeSort.dir/build.make CMakeFiles/MergeSort.dir/Sort/MergeSort.cpp.s
 .PHONY : Sort/MergeSort.cpp.s
 
+Sort/QuickSort.o: Sort/QuickSort.cpp.o
+
+.PHONY : Sort/QuickSort.o
+
+# target to build an object file
+Sort/QuickSort.cpp.o:
+	$(MAKE) -f CMakeFiles/QuickSort.dir/build.make CMakeFiles/QuickSort.dir/Sort/QuickSort.cpp.o
+.PHONY : Sort/QuickSort.cpp.o
+
+Sort/QuickSort.i: Sort/QuickSort.cpp.i
+
+.PHONY : Sort/QuickSort.i
+
+# target to preprocess a source file
+Sort/QuickSort.cpp.i:
+	$(MAKE) -f CMakeFiles/QuickSort.dir/build.make CMakeFiles/QuickSort.dir/Sort/QuickSort.cpp.i
+.PHONY : Sort/QuickSort.cpp.i
+
+Sort/QuickSort.s: Sort/QuickSort.cpp.s
+
+.PHONY : Sort/QuickSort.s
+
+# target to generate assembly for a file
+Sort/QuickSort.cpp.s:
+	$(MAKE) -f CMakeFiles/QuickSort.dir/build.make CMakeFiles/QuickSort.dir/Sort/QuickSort.cpp.s
+.PHONY : Sort/QuickSort.cpp.s
+
 Sort/SelectSort.o: Sort/SelectSort.cpp.o
 
 .PHONY : Sort/SelectSort.o
@@ -277,7 +357,9 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... HeapSort"
 	@echo "... edit_cache"
+	@echo "... QuickSort"
 	@echo "... BubbleSort"
 	@echo "... MergeSort"
 	@echo "... SelectSort"
@@ -285,12 +367,18 @@ help:
 	@echo "... Sort/BubbleSort.o"
 	@echo "... Sort/BubbleSort.i"
 	@echo "... Sort/BubbleSort.s"
+	@echo "... Sort/HeapSort.o"
+	@echo "... Sort/HeapSort.i"
+	@echo "... Sort/HeapSort.s"
 	@echo "... Sort/InsertionSort.o"
 	@echo "... Sort/InsertionSort.i"
 	@echo "... Sort/InsertionSort.s"
 	@echo "... Sort/MergeSort.o"
 	@echo "... Sort/MergeSort.i"
 	@echo "... Sort/MergeSort.s"
+	@echo "... Sort/QuickSort.o"
+	@echo "... Sort/QuickSort.i"
+	@echo "... Sort/QuickSort.s"
 	@echo "... Sort/SelectSort.o"
 	@echo "... Sort/SelectSort.i"
 	@echo "... Sort/SelectSort.s"
