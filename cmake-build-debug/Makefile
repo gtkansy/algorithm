@@ -111,43 +111,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named HeapSort
+# Target rules for targets named Queue
 
 # Build rule for target.
-HeapSort: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 HeapSort
-.PHONY : HeapSort
+Queue: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Queue
+.PHONY : Queue
 
 # fast build rule for target.
-HeapSort/fast:
-	$(MAKE) -f CMakeFiles/HeapSort.dir/build.make CMakeFiles/HeapSort.dir/build
-.PHONY : HeapSort/fast
+Queue/fast:
+	$(MAKE) -f CMakeFiles/Queue.dir/build.make CMakeFiles/Queue.dir/build
+.PHONY : Queue/fast
 
 #=============================================================================
-# Target rules for targets named QuickSort
+# Target rules for targets named InsertionSort
 
 # Build rule for target.
-QuickSort: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 QuickSort
-.PHONY : QuickSort
+InsertionSort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 InsertionSort
+.PHONY : InsertionSort
 
 # fast build rule for target.
-QuickSort/fast:
-	$(MAKE) -f CMakeFiles/QuickSort.dir/build.make CMakeFiles/QuickSort.dir/build
-.PHONY : QuickSort/fast
-
-#=============================================================================
-# Target rules for targets named BubbleSort
-
-# Build rule for target.
-BubbleSort: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 BubbleSort
-.PHONY : BubbleSort
-
-# fast build rule for target.
-BubbleSort/fast:
-	$(MAKE) -f CMakeFiles/BubbleSort.dir/build.make CMakeFiles/BubbleSort.dir/build
-.PHONY : BubbleSort/fast
+InsertionSort/fast:
+	$(MAKE) -f CMakeFiles/InsertionSort.dir/build.make CMakeFiles/InsertionSort.dir/build
+.PHONY : InsertionSort/fast
 
 #=============================================================================
 # Target rules for targets named MergeSort
@@ -163,6 +150,19 @@ MergeSort/fast:
 .PHONY : MergeSort/fast
 
 #=============================================================================
+# Target rules for targets named CountingSort
+
+# Build rule for target.
+CountingSort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CountingSort
+.PHONY : CountingSort
+
+# fast build rule for target.
+CountingSort/fast:
+	$(MAKE) -f CMakeFiles/CountingSort.dir/build.make CMakeFiles/CountingSort.dir/build
+.PHONY : CountingSort/fast
+
+#=============================================================================
 # Target rules for targets named SelectSort
 
 # Build rule for target.
@@ -176,17 +176,82 @@ SelectSort/fast:
 .PHONY : SelectSort/fast
 
 #=============================================================================
-# Target rules for targets named InsertionSort
+# Target rules for targets named BubbleSort
 
 # Build rule for target.
-InsertionSort: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 InsertionSort
-.PHONY : InsertionSort
+BubbleSort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BubbleSort
+.PHONY : BubbleSort
 
 # fast build rule for target.
-InsertionSort/fast:
-	$(MAKE) -f CMakeFiles/InsertionSort.dir/build.make CMakeFiles/InsertionSort.dir/build
-.PHONY : InsertionSort/fast
+BubbleSort/fast:
+	$(MAKE) -f CMakeFiles/BubbleSort.dir/build.make CMakeFiles/BubbleSort.dir/build
+.PHONY : BubbleSort/fast
+
+#=============================================================================
+# Target rules for targets named QuickSort
+
+# Build rule for target.
+QuickSort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 QuickSort
+.PHONY : QuickSort
+
+# fast build rule for target.
+QuickSort/fast:
+	$(MAKE) -f CMakeFiles/QuickSort.dir/build.make CMakeFiles/QuickSort.dir/build
+.PHONY : QuickSort/fast
+
+#=============================================================================
+# Target rules for targets named RadixSort
+
+# Build rule for target.
+RadixSort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 RadixSort
+.PHONY : RadixSort
+
+# fast build rule for target.
+RadixSort/fast:
+	$(MAKE) -f CMakeFiles/RadixSort.dir/build.make CMakeFiles/RadixSort.dir/build
+.PHONY : RadixSort/fast
+
+#=============================================================================
+# Target rules for targets named HeapSort
+
+# Build rule for target.
+HeapSort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 HeapSort
+.PHONY : HeapSort
+
+# fast build rule for target.
+HeapSort/fast:
+	$(MAKE) -f CMakeFiles/HeapSort.dir/build.make CMakeFiles/HeapSort.dir/build
+.PHONY : HeapSort/fast
+
+#=============================================================================
+# Target rules for targets named Stack
+
+# Build rule for target.
+Stack: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Stack
+.PHONY : Stack
+
+# fast build rule for target.
+Stack/fast:
+	$(MAKE) -f CMakeFiles/Stack.dir/build.make CMakeFiles/Stack.dir/build
+.PHONY : Stack/fast
+
+#=============================================================================
+# Target rules for targets named BucketSort
+
+# Build rule for target.
+BucketSort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BucketSort
+.PHONY : BucketSort
+
+# fast build rule for target.
+BucketSort/fast:
+	$(MAKE) -f CMakeFiles/BucketSort.dir/build.make CMakeFiles/BucketSort.dir/build
+.PHONY : BucketSort/fast
 
 Sort/BubbleSort.o: Sort/BubbleSort.cpp.o
 
@@ -214,6 +279,60 @@ Sort/BubbleSort.s: Sort/BubbleSort.cpp.s
 Sort/BubbleSort.cpp.s:
 	$(MAKE) -f CMakeFiles/BubbleSort.dir/build.make CMakeFiles/BubbleSort.dir/Sort/BubbleSort.cpp.s
 .PHONY : Sort/BubbleSort.cpp.s
+
+Sort/BucketSort.o: Sort/BucketSort.cpp.o
+
+.PHONY : Sort/BucketSort.o
+
+# target to build an object file
+Sort/BucketSort.cpp.o:
+	$(MAKE) -f CMakeFiles/BucketSort.dir/build.make CMakeFiles/BucketSort.dir/Sort/BucketSort.cpp.o
+.PHONY : Sort/BucketSort.cpp.o
+
+Sort/BucketSort.i: Sort/BucketSort.cpp.i
+
+.PHONY : Sort/BucketSort.i
+
+# target to preprocess a source file
+Sort/BucketSort.cpp.i:
+	$(MAKE) -f CMakeFiles/BucketSort.dir/build.make CMakeFiles/BucketSort.dir/Sort/BucketSort.cpp.i
+.PHONY : Sort/BucketSort.cpp.i
+
+Sort/BucketSort.s: Sort/BucketSort.cpp.s
+
+.PHONY : Sort/BucketSort.s
+
+# target to generate assembly for a file
+Sort/BucketSort.cpp.s:
+	$(MAKE) -f CMakeFiles/BucketSort.dir/build.make CMakeFiles/BucketSort.dir/Sort/BucketSort.cpp.s
+.PHONY : Sort/BucketSort.cpp.s
+
+Sort/CountingSort.o: Sort/CountingSort.cpp.o
+
+.PHONY : Sort/CountingSort.o
+
+# target to build an object file
+Sort/CountingSort.cpp.o:
+	$(MAKE) -f CMakeFiles/CountingSort.dir/build.make CMakeFiles/CountingSort.dir/Sort/CountingSort.cpp.o
+.PHONY : Sort/CountingSort.cpp.o
+
+Sort/CountingSort.i: Sort/CountingSort.cpp.i
+
+.PHONY : Sort/CountingSort.i
+
+# target to preprocess a source file
+Sort/CountingSort.cpp.i:
+	$(MAKE) -f CMakeFiles/CountingSort.dir/build.make CMakeFiles/CountingSort.dir/Sort/CountingSort.cpp.i
+.PHONY : Sort/CountingSort.cpp.i
+
+Sort/CountingSort.s: Sort/CountingSort.cpp.s
+
+.PHONY : Sort/CountingSort.s
+
+# target to generate assembly for a file
+Sort/CountingSort.cpp.s:
+	$(MAKE) -f CMakeFiles/CountingSort.dir/build.make CMakeFiles/CountingSort.dir/Sort/CountingSort.cpp.s
+.PHONY : Sort/CountingSort.cpp.s
 
 Sort/HeapSort.o: Sort/HeapSort.cpp.o
 
@@ -323,6 +442,33 @@ Sort/QuickSort.cpp.s:
 	$(MAKE) -f CMakeFiles/QuickSort.dir/build.make CMakeFiles/QuickSort.dir/Sort/QuickSort.cpp.s
 .PHONY : Sort/QuickSort.cpp.s
 
+Sort/RadixSort.o: Sort/RadixSort.cpp.o
+
+.PHONY : Sort/RadixSort.o
+
+# target to build an object file
+Sort/RadixSort.cpp.o:
+	$(MAKE) -f CMakeFiles/RadixSort.dir/build.make CMakeFiles/RadixSort.dir/Sort/RadixSort.cpp.o
+.PHONY : Sort/RadixSort.cpp.o
+
+Sort/RadixSort.i: Sort/RadixSort.cpp.i
+
+.PHONY : Sort/RadixSort.i
+
+# target to preprocess a source file
+Sort/RadixSort.cpp.i:
+	$(MAKE) -f CMakeFiles/RadixSort.dir/build.make CMakeFiles/RadixSort.dir/Sort/RadixSort.cpp.i
+.PHONY : Sort/RadixSort.cpp.i
+
+Sort/RadixSort.s: Sort/RadixSort.cpp.s
+
+.PHONY : Sort/RadixSort.s
+
+# target to generate assembly for a file
+Sort/RadixSort.cpp.s:
+	$(MAKE) -f CMakeFiles/RadixSort.dir/build.make CMakeFiles/RadixSort.dir/Sort/RadixSort.cpp.s
+.PHONY : Sort/RadixSort.cpp.s
+
 Sort/SelectSort.o: Sort/SelectSort.cpp.o
 
 .PHONY : Sort/SelectSort.o
@@ -350,6 +496,60 @@ Sort/SelectSort.cpp.s:
 	$(MAKE) -f CMakeFiles/SelectSort.dir/build.make CMakeFiles/SelectSort.dir/Sort/SelectSort.cpp.s
 .PHONY : Sort/SelectSort.cpp.s
 
+datastructure/Queue.o: datastructure/Queue.cpp.o
+
+.PHONY : datastructure/Queue.o
+
+# target to build an object file
+datastructure/Queue.cpp.o:
+	$(MAKE) -f CMakeFiles/Queue.dir/build.make CMakeFiles/Queue.dir/datastructure/Queue.cpp.o
+.PHONY : datastructure/Queue.cpp.o
+
+datastructure/Queue.i: datastructure/Queue.cpp.i
+
+.PHONY : datastructure/Queue.i
+
+# target to preprocess a source file
+datastructure/Queue.cpp.i:
+	$(MAKE) -f CMakeFiles/Queue.dir/build.make CMakeFiles/Queue.dir/datastructure/Queue.cpp.i
+.PHONY : datastructure/Queue.cpp.i
+
+datastructure/Queue.s: datastructure/Queue.cpp.s
+
+.PHONY : datastructure/Queue.s
+
+# target to generate assembly for a file
+datastructure/Queue.cpp.s:
+	$(MAKE) -f CMakeFiles/Queue.dir/build.make CMakeFiles/Queue.dir/datastructure/Queue.cpp.s
+.PHONY : datastructure/Queue.cpp.s
+
+datastructure/Stack.o: datastructure/Stack.cpp.o
+
+.PHONY : datastructure/Stack.o
+
+# target to build an object file
+datastructure/Stack.cpp.o:
+	$(MAKE) -f CMakeFiles/Stack.dir/build.make CMakeFiles/Stack.dir/datastructure/Stack.cpp.o
+.PHONY : datastructure/Stack.cpp.o
+
+datastructure/Stack.i: datastructure/Stack.cpp.i
+
+.PHONY : datastructure/Stack.i
+
+# target to preprocess a source file
+datastructure/Stack.cpp.i:
+	$(MAKE) -f CMakeFiles/Stack.dir/build.make CMakeFiles/Stack.dir/datastructure/Stack.cpp.i
+.PHONY : datastructure/Stack.cpp.i
+
+datastructure/Stack.s: datastructure/Stack.cpp.s
+
+.PHONY : datastructure/Stack.s
+
+# target to generate assembly for a file
+datastructure/Stack.cpp.s:
+	$(MAKE) -f CMakeFiles/Stack.dir/build.make CMakeFiles/Stack.dir/datastructure/Stack.cpp.s
+.PHONY : datastructure/Stack.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -357,16 +557,27 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... HeapSort"
 	@echo "... edit_cache"
-	@echo "... QuickSort"
-	@echo "... BubbleSort"
-	@echo "... MergeSort"
-	@echo "... SelectSort"
+	@echo "... Queue"
 	@echo "... InsertionSort"
+	@echo "... MergeSort"
+	@echo "... CountingSort"
+	@echo "... SelectSort"
+	@echo "... BubbleSort"
+	@echo "... QuickSort"
+	@echo "... RadixSort"
+	@echo "... HeapSort"
+	@echo "... Stack"
+	@echo "... BucketSort"
 	@echo "... Sort/BubbleSort.o"
 	@echo "... Sort/BubbleSort.i"
 	@echo "... Sort/BubbleSort.s"
+	@echo "... Sort/BucketSort.o"
+	@echo "... Sort/BucketSort.i"
+	@echo "... Sort/BucketSort.s"
+	@echo "... Sort/CountingSort.o"
+	@echo "... Sort/CountingSort.i"
+	@echo "... Sort/CountingSort.s"
 	@echo "... Sort/HeapSort.o"
 	@echo "... Sort/HeapSort.i"
 	@echo "... Sort/HeapSort.s"
@@ -379,9 +590,18 @@ help:
 	@echo "... Sort/QuickSort.o"
 	@echo "... Sort/QuickSort.i"
 	@echo "... Sort/QuickSort.s"
+	@echo "... Sort/RadixSort.o"
+	@echo "... Sort/RadixSort.i"
+	@echo "... Sort/RadixSort.s"
 	@echo "... Sort/SelectSort.o"
 	@echo "... Sort/SelectSort.i"
 	@echo "... Sort/SelectSort.s"
+	@echo "... datastructure/Queue.o"
+	@echo "... datastructure/Queue.i"
+	@echo "... datastructure/Queue.s"
+	@echo "... datastructure/Stack.o"
+	@echo "... datastructure/Stack.i"
+	@echo "... datastructure/Stack.s"
 .PHONY : help
 
 

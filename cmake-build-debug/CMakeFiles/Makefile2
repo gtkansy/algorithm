@@ -65,76 +65,187 @@ CMAKE_SOURCE_DIR = /home/gtkansy/CLionProjects/algorithm
 CMAKE_BINARY_DIR = /home/gtkansy/CLionProjects/algorithm/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/HeapSort.dir
+# Target rules for target CMakeFiles/Queue.dir
 
 # All Build rule for target.
-CMakeFiles/HeapSort.dir/all:
-	$(MAKE) -f CMakeFiles/HeapSort.dir/build.make CMakeFiles/HeapSort.dir/depend
-	$(MAKE) -f CMakeFiles/HeapSort.dir/build.make CMakeFiles/HeapSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target HeapSort"
-.PHONY : CMakeFiles/HeapSort.dir/all
+CMakeFiles/Queue.dir/all:
+	$(MAKE) -f CMakeFiles/Queue.dir/build.make CMakeFiles/Queue.dir/depend
+	$(MAKE) -f CMakeFiles/Queue.dir/build.make CMakeFiles/Queue.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target Queue"
+.PHONY : CMakeFiles/Queue.dir/all
 
 # Include target in all.
-all: CMakeFiles/HeapSort.dir/all
+all: CMakeFiles/Queue.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/HeapSort.dir/rule: cmake_check_build_system
+CMakeFiles/Queue.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/HeapSort.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Queue.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/HeapSort.dir/rule
+.PHONY : CMakeFiles/Queue.dir/rule
 
 # Convenience name for target.
-HeapSort: CMakeFiles/HeapSort.dir/rule
+Queue: CMakeFiles/Queue.dir/rule
 
-.PHONY : HeapSort
-
-# clean rule for target.
-CMakeFiles/HeapSort.dir/clean:
-	$(MAKE) -f CMakeFiles/HeapSort.dir/build.make CMakeFiles/HeapSort.dir/clean
-.PHONY : CMakeFiles/HeapSort.dir/clean
+.PHONY : Queue
 
 # clean rule for target.
-clean: CMakeFiles/HeapSort.dir/clean
+CMakeFiles/Queue.dir/clean:
+	$(MAKE) -f CMakeFiles/Queue.dir/build.make CMakeFiles/Queue.dir/clean
+.PHONY : CMakeFiles/Queue.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Queue.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/QuickSort.dir
+# Target rules for target CMakeFiles/InsertionSort.dir
 
 # All Build rule for target.
-CMakeFiles/QuickSort.dir/all:
-	$(MAKE) -f CMakeFiles/QuickSort.dir/build.make CMakeFiles/QuickSort.dir/depend
-	$(MAKE) -f CMakeFiles/QuickSort.dir/build.make CMakeFiles/QuickSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target QuickSort"
-.PHONY : CMakeFiles/QuickSort.dir/all
+CMakeFiles/InsertionSort.dir/all:
+	$(MAKE) -f CMakeFiles/InsertionSort.dir/build.make CMakeFiles/InsertionSort.dir/depend
+	$(MAKE) -f CMakeFiles/InsertionSort.dir/build.make CMakeFiles/InsertionSort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target InsertionSort"
+.PHONY : CMakeFiles/InsertionSort.dir/all
 
 # Include target in all.
-all: CMakeFiles/QuickSort.dir/all
+all: CMakeFiles/InsertionSort.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/QuickSort.dir/rule: cmake_check_build_system
+CMakeFiles/InsertionSort.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/QuickSort.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/InsertionSort.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/QuickSort.dir/rule
+.PHONY : CMakeFiles/InsertionSort.dir/rule
 
 # Convenience name for target.
-QuickSort: CMakeFiles/QuickSort.dir/rule
+InsertionSort: CMakeFiles/InsertionSort.dir/rule
 
-.PHONY : QuickSort
-
-# clean rule for target.
-CMakeFiles/QuickSort.dir/clean:
-	$(MAKE) -f CMakeFiles/QuickSort.dir/build.make CMakeFiles/QuickSort.dir/clean
-.PHONY : CMakeFiles/QuickSort.dir/clean
+.PHONY : InsertionSort
 
 # clean rule for target.
-clean: CMakeFiles/QuickSort.dir/clean
+CMakeFiles/InsertionSort.dir/clean:
+	$(MAKE) -f CMakeFiles/InsertionSort.dir/build.make CMakeFiles/InsertionSort.dir/clean
+.PHONY : CMakeFiles/InsertionSort.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/InsertionSort.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/MergeSort.dir
+
+# All Build rule for target.
+CMakeFiles/MergeSort.dir/all:
+	$(MAKE) -f CMakeFiles/MergeSort.dir/build.make CMakeFiles/MergeSort.dir/depend
+	$(MAKE) -f CMakeFiles/MergeSort.dir/build.make CMakeFiles/MergeSort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target MergeSort"
+.PHONY : CMakeFiles/MergeSort.dir/all
+
+# Include target in all.
+all: CMakeFiles/MergeSort.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/MergeSort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/MergeSort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/MergeSort.dir/rule
+
+# Convenience name for target.
+MergeSort: CMakeFiles/MergeSort.dir/rule
+
+.PHONY : MergeSort
+
+# clean rule for target.
+CMakeFiles/MergeSort.dir/clean:
+	$(MAKE) -f CMakeFiles/MergeSort.dir/build.make CMakeFiles/MergeSort.dir/clean
+.PHONY : CMakeFiles/MergeSort.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/MergeSort.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/CountingSort.dir
+
+# All Build rule for target.
+CMakeFiles/CountingSort.dir/all:
+	$(MAKE) -f CMakeFiles/CountingSort.dir/build.make CMakeFiles/CountingSort.dir/depend
+	$(MAKE) -f CMakeFiles/CountingSort.dir/build.make CMakeFiles/CountingSort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target CountingSort"
+.PHONY : CMakeFiles/CountingSort.dir/all
+
+# Include target in all.
+all: CMakeFiles/CountingSort.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/CountingSort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CountingSort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/CountingSort.dir/rule
+
+# Convenience name for target.
+CountingSort: CMakeFiles/CountingSort.dir/rule
+
+.PHONY : CountingSort
+
+# clean rule for target.
+CMakeFiles/CountingSort.dir/clean:
+	$(MAKE) -f CMakeFiles/CountingSort.dir/build.make CMakeFiles/CountingSort.dir/clean
+.PHONY : CMakeFiles/CountingSort.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/CountingSort.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/SelectSort.dir
+
+# All Build rule for target.
+CMakeFiles/SelectSort.dir/all:
+	$(MAKE) -f CMakeFiles/SelectSort.dir/build.make CMakeFiles/SelectSort.dir/depend
+	$(MAKE) -f CMakeFiles/SelectSort.dir/build.make CMakeFiles/SelectSort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target SelectSort"
+.PHONY : CMakeFiles/SelectSort.dir/all
+
+# Include target in all.
+all: CMakeFiles/SelectSort.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/SelectSort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/SelectSort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/SelectSort.dir/rule
+
+# Convenience name for target.
+SelectSort: CMakeFiles/SelectSort.dir/rule
+
+.PHONY : SelectSort
+
+# clean rule for target.
+CMakeFiles/SelectSort.dir/clean:
+	$(MAKE) -f CMakeFiles/SelectSort.dir/build.make CMakeFiles/SelectSort.dir/clean
+.PHONY : CMakeFiles/SelectSort.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/SelectSort.dir/clean
 
 .PHONY : clean
 
@@ -176,113 +287,187 @@ clean: CMakeFiles/BubbleSort.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/MergeSort.dir
+# Target rules for target CMakeFiles/QuickSort.dir
 
 # All Build rule for target.
-CMakeFiles/MergeSort.dir/all:
-	$(MAKE) -f CMakeFiles/MergeSort.dir/build.make CMakeFiles/MergeSort.dir/depend
-	$(MAKE) -f CMakeFiles/MergeSort.dir/build.make CMakeFiles/MergeSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target MergeSort"
-.PHONY : CMakeFiles/MergeSort.dir/all
+CMakeFiles/QuickSort.dir/all:
+	$(MAKE) -f CMakeFiles/QuickSort.dir/build.make CMakeFiles/QuickSort.dir/depend
+	$(MAKE) -f CMakeFiles/QuickSort.dir/build.make CMakeFiles/QuickSort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target QuickSort"
+.PHONY : CMakeFiles/QuickSort.dir/all
 
 # Include target in all.
-all: CMakeFiles/MergeSort.dir/all
+all: CMakeFiles/QuickSort.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/MergeSort.dir/rule: cmake_check_build_system
+CMakeFiles/QuickSort.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/MergeSort.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/QuickSort.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/MergeSort.dir/rule
+.PHONY : CMakeFiles/QuickSort.dir/rule
 
 # Convenience name for target.
-MergeSort: CMakeFiles/MergeSort.dir/rule
+QuickSort: CMakeFiles/QuickSort.dir/rule
 
-.PHONY : MergeSort
-
-# clean rule for target.
-CMakeFiles/MergeSort.dir/clean:
-	$(MAKE) -f CMakeFiles/MergeSort.dir/build.make CMakeFiles/MergeSort.dir/clean
-.PHONY : CMakeFiles/MergeSort.dir/clean
+.PHONY : QuickSort
 
 # clean rule for target.
-clean: CMakeFiles/MergeSort.dir/clean
+CMakeFiles/QuickSort.dir/clean:
+	$(MAKE) -f CMakeFiles/QuickSort.dir/build.make CMakeFiles/QuickSort.dir/clean
+.PHONY : CMakeFiles/QuickSort.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/QuickSort.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/SelectSort.dir
+# Target rules for target CMakeFiles/RadixSort.dir
 
 # All Build rule for target.
-CMakeFiles/SelectSort.dir/all:
-	$(MAKE) -f CMakeFiles/SelectSort.dir/build.make CMakeFiles/SelectSort.dir/depend
-	$(MAKE) -f CMakeFiles/SelectSort.dir/build.make CMakeFiles/SelectSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target SelectSort"
-.PHONY : CMakeFiles/SelectSort.dir/all
+CMakeFiles/RadixSort.dir/all:
+	$(MAKE) -f CMakeFiles/RadixSort.dir/build.make CMakeFiles/RadixSort.dir/depend
+	$(MAKE) -f CMakeFiles/RadixSort.dir/build.make CMakeFiles/RadixSort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target RadixSort"
+.PHONY : CMakeFiles/RadixSort.dir/all
 
 # Include target in all.
-all: CMakeFiles/SelectSort.dir/all
+all: CMakeFiles/RadixSort.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/SelectSort.dir/rule: cmake_check_build_system
+CMakeFiles/RadixSort.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/SelectSort.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/RadixSort.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/SelectSort.dir/rule
+.PHONY : CMakeFiles/RadixSort.dir/rule
 
 # Convenience name for target.
-SelectSort: CMakeFiles/SelectSort.dir/rule
+RadixSort: CMakeFiles/RadixSort.dir/rule
 
-.PHONY : SelectSort
-
-# clean rule for target.
-CMakeFiles/SelectSort.dir/clean:
-	$(MAKE) -f CMakeFiles/SelectSort.dir/build.make CMakeFiles/SelectSort.dir/clean
-.PHONY : CMakeFiles/SelectSort.dir/clean
+.PHONY : RadixSort
 
 # clean rule for target.
-clean: CMakeFiles/SelectSort.dir/clean
+CMakeFiles/RadixSort.dir/clean:
+	$(MAKE) -f CMakeFiles/RadixSort.dir/build.make CMakeFiles/RadixSort.dir/clean
+.PHONY : CMakeFiles/RadixSort.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/RadixSort.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/InsertionSort.dir
+# Target rules for target CMakeFiles/HeapSort.dir
 
 # All Build rule for target.
-CMakeFiles/InsertionSort.dir/all:
-	$(MAKE) -f CMakeFiles/InsertionSort.dir/build.make CMakeFiles/InsertionSort.dir/depend
-	$(MAKE) -f CMakeFiles/InsertionSort.dir/build.make CMakeFiles/InsertionSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target InsertionSort"
-.PHONY : CMakeFiles/InsertionSort.dir/all
+CMakeFiles/HeapSort.dir/all:
+	$(MAKE) -f CMakeFiles/HeapSort.dir/build.make CMakeFiles/HeapSort.dir/depend
+	$(MAKE) -f CMakeFiles/HeapSort.dir/build.make CMakeFiles/HeapSort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target HeapSort"
+.PHONY : CMakeFiles/HeapSort.dir/all
 
 # Include target in all.
-all: CMakeFiles/InsertionSort.dir/all
+all: CMakeFiles/HeapSort.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/InsertionSort.dir/rule: cmake_check_build_system
+CMakeFiles/HeapSort.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/InsertionSort.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/HeapSort.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/InsertionSort.dir/rule
+.PHONY : CMakeFiles/HeapSort.dir/rule
 
 # Convenience name for target.
-InsertionSort: CMakeFiles/InsertionSort.dir/rule
+HeapSort: CMakeFiles/HeapSort.dir/rule
 
-.PHONY : InsertionSort
-
-# clean rule for target.
-CMakeFiles/InsertionSort.dir/clean:
-	$(MAKE) -f CMakeFiles/InsertionSort.dir/build.make CMakeFiles/InsertionSort.dir/clean
-.PHONY : CMakeFiles/InsertionSort.dir/clean
+.PHONY : HeapSort
 
 # clean rule for target.
-clean: CMakeFiles/InsertionSort.dir/clean
+CMakeFiles/HeapSort.dir/clean:
+	$(MAKE) -f CMakeFiles/HeapSort.dir/build.make CMakeFiles/HeapSort.dir/clean
+.PHONY : CMakeFiles/HeapSort.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/HeapSort.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Stack.dir
+
+# All Build rule for target.
+CMakeFiles/Stack.dir/all:
+	$(MAKE) -f CMakeFiles/Stack.dir/build.make CMakeFiles/Stack.dir/depend
+	$(MAKE) -f CMakeFiles/Stack.dir/build.make CMakeFiles/Stack.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target Stack"
+.PHONY : CMakeFiles/Stack.dir/all
+
+# Include target in all.
+all: CMakeFiles/Stack.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Stack.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Stack.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Stack.dir/rule
+
+# Convenience name for target.
+Stack: CMakeFiles/Stack.dir/rule
+
+.PHONY : Stack
+
+# clean rule for target.
+CMakeFiles/Stack.dir/clean:
+	$(MAKE) -f CMakeFiles/Stack.dir/build.make CMakeFiles/Stack.dir/clean
+.PHONY : CMakeFiles/Stack.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Stack.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/BucketSort.dir
+
+# All Build rule for target.
+CMakeFiles/BucketSort.dir/all:
+	$(MAKE) -f CMakeFiles/BucketSort.dir/build.make CMakeFiles/BucketSort.dir/depend
+	$(MAKE) -f CMakeFiles/BucketSort.dir/build.make CMakeFiles/BucketSort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target BucketSort"
+.PHONY : CMakeFiles/BucketSort.dir/all
+
+# Include target in all.
+all: CMakeFiles/BucketSort.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/BucketSort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/BucketSort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/BucketSort.dir/rule
+
+# Convenience name for target.
+BucketSort: CMakeFiles/BucketSort.dir/rule
+
+.PHONY : BucketSort
+
+# clean rule for target.
+CMakeFiles/BucketSort.dir/clean:
+	$(MAKE) -f CMakeFiles/BucketSort.dir/build.make CMakeFiles/BucketSort.dir/clean
+.PHONY : CMakeFiles/BucketSort.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/BucketSort.dir/clean
 
 .PHONY : clean
 

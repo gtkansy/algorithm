@@ -27,52 +27,6 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="HeapSort">
-				<Option output="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/HeapSort" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 HeapSort"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="HeapSort/fast">
-				<Option output="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/HeapSort" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 HeapSort/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug"/>
 				<Option type="4"/>
@@ -83,8 +37,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="QuickSort">
-				<Option output="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/QuickSort" prefix_auto="0" extension_auto="0"/>
+			<Target title="Queue">
+				<Option output="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Queue" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -100,14 +54,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 QuickSort"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 Queue"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="QuickSort/fast">
-				<Option output="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/QuickSort" prefix_auto="0" extension_auto="0"/>
+			<Target title="Queue/fast">
+				<Option output="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Queue" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -123,145 +77,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 QuickSort/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="BubbleSort">
-				<Option output="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/BubbleSort" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 BubbleSort"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="BubbleSort/fast">
-				<Option output="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/BubbleSort" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 BubbleSort/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="MergeSort">
-				<Option output="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/MergeSort" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 MergeSort"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="MergeSort/fast">
-				<Option output="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/MergeSort" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 MergeSort/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="SelectSort">
-				<Option output="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/SelectSort" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 SelectSort"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="SelectSort/fast">
-				<Option output="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/SelectSort" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 SelectSort/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 Queue/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -313,9 +129,429 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="MergeSort">
+				<Option output="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/MergeSort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 MergeSort"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MergeSort/fast">
+				<Option output="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/MergeSort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 MergeSort/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CountingSort">
+				<Option output="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CountingSort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 CountingSort"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CountingSort/fast">
+				<Option output="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/CountingSort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 CountingSort/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SelectSort">
+				<Option output="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/SelectSort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 SelectSort"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SelectSort/fast">
+				<Option output="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/SelectSort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 SelectSort/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BubbleSort">
+				<Option output="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/BubbleSort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 BubbleSort"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BubbleSort/fast">
+				<Option output="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/BubbleSort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 BubbleSort/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="QuickSort">
+				<Option output="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/QuickSort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 QuickSort"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="QuickSort/fast">
+				<Option output="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/QuickSort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 QuickSort/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RadixSort">
+				<Option output="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/RadixSort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 RadixSort"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RadixSort/fast">
+				<Option output="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/RadixSort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 RadixSort/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HeapSort">
+				<Option output="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/HeapSort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 HeapSort"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HeapSort/fast">
+				<Option output="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/HeapSort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 HeapSort/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Stack">
+				<Option output="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Stack" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 Stack"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Stack/fast">
+				<Option output="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Stack" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 Stack/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BucketSort">
+				<Option output="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/BucketSort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 BucketSort"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BucketSort/fast">
+				<Option output="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/BucketSort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gtkansy/CLionProjects/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 BucketSort/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gtkansy/CLionProjects/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/home/gtkansy/CLionProjects/algorithm/Sort/BubbleSort.cpp">
 			<Option target="BubbleSort"/>
+		</Unit>
+		<Unit filename="/home/gtkansy/CLionProjects/algorithm/Sort/BucketSort.cpp">
+			<Option target="BucketSort"/>
+		</Unit>
+		<Unit filename="/home/gtkansy/CLionProjects/algorithm/Sort/CountingSort.cpp">
+			<Option target="CountingSort"/>
 		</Unit>
 		<Unit filename="/home/gtkansy/CLionProjects/algorithm/Sort/HeapSort.cpp">
 			<Option target="HeapSort"/>
@@ -329,8 +565,17 @@
 		<Unit filename="/home/gtkansy/CLionProjects/algorithm/Sort/QuickSort.cpp">
 			<Option target="QuickSort"/>
 		</Unit>
+		<Unit filename="/home/gtkansy/CLionProjects/algorithm/Sort/RadixSort.cpp">
+			<Option target="RadixSort"/>
+		</Unit>
 		<Unit filename="/home/gtkansy/CLionProjects/algorithm/Sort/SelectSort.cpp">
 			<Option target="SelectSort"/>
+		</Unit>
+		<Unit filename="/home/gtkansy/CLionProjects/algorithm/datastructure/Queue.cpp">
+			<Option target="Queue"/>
+		</Unit>
+		<Unit filename="/home/gtkansy/CLionProjects/algorithm/datastructure/Stack.cpp">
+			<Option target="Stack"/>
 		</Unit>
 		<Unit filename="/home/gtkansy/CLionProjects/algorithm/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

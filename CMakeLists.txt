@@ -9,5 +9,11 @@ add_executable(InsertionSort Sort/InsertionSort.cpp)
 add_executable(MergeSort Sort/MergeSort.cpp)
 add_executable(QuickSort Sort/QuickSort.cpp)
 add_executable(HeapSort Sort/HeapSort.cpp)
+add_executable(CountingSort Sort/CountingSort.cpp)
+add_executable(RadixSort Sort/RadixSort.cpp)
+add_executable(BucketSort Sort/BucketSort.cpp)
+
+add_executable(Stack datastructure/Stack.cpp)
+add_executable(Queue datastructure/Queue.cpp)
 
 
