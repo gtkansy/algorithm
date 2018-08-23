@@ -8,67 +8,81 @@ using namespace std;
 //用front和rear下标分别表示队头元素下标和队尾元素下标 ,队尾插入，队头删除
 
 //用链表实现队列
-struct ListNode
-{
-    int nData;
-    ListNode* pNext;
-};
 
-class ListQueue{
+template <class T>
+class Queue {
 private:
-    ListNode* m_pHead;
-    ListNode* m_pTail;
-    //可以直接用list实现
+    struct Node {
+        T data;
+        Node *next;
+    };
+
+private:
+    Node *head;
+    Node *rear;
+    int queueSize;
 
 public:
-    ListQueue():m_pHead(NULL),m_pTail(NULL){}
+    Queue() : head(NULL), rear(NULL), queueSize(0) { }
 
-    void push(int data){
-        ListNode* pNew=new ListNode;
-        pNew->nData=data;
-        pNew->pNext=NULL;
+    ~Queue() {
+        while (!empty())
+            pop();
+    }
 
-        if(m_pTail==NULL)
-        {
-            m_pTail=pNew;
-            m_pHead=pNew;
+    void push(const T &val) {
+        Node *new_node = new Node;
+        new_node->data = val;
+        new_node->next = NULL;
+        if (head == NULL && rear == NULL) {
+            head = rear = new_node;
+        } else {
+            rear->next = new_node;
+            rear = new_node;
         }
-        else
-        {
-            m_pTail->pNext=pNew;
-            m_pTail=pNew;
+        ++queueSize;
+    }
+
+    void pop() {
+        if (!empty()) {
+            Node *temp = head;
+            head = head->next;
+            delete temp;
+            --queueSize;
         }
     }
 
-    // 在链表头部弹出
-    void Pop()
-    {
-        ListNode* pPop =  m_pHead;
-        m_pHead = m_pHead->pNext;
-        delete pPop;
-
-        // 弹出最后一个元素时，两指针均置空
-        if (NULL == m_pHead)
-            m_pTail = NULL;
-
+    T front() const {
+        if (!empty())
+            return head->data;
     }
 
-    int Front()
-    {
-        return m_pHead->nData;
-    }
-    int Back()
-    {
-        return m_pTail->nData;
+    T back() const {
+        if (!empty())
+            return rear->data;
     }
 
+    bool empty() const {
+        return queueSize == 0;
+    }
 
-
-
+    int size() const {
+        return queueSize;
+    }
 };
-
 
 
 
 
 //用数组实现
+
+typedef struct
+{
+    datatype data[MAXSIZE];
+    int front,rear;    //表示队列的头尾位置
+}Queue;
+
+
+
+
+

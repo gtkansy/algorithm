@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/DP.dir/datastructure/DP.cpp.o  -o DP 
