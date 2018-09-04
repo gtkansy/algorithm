@@ -46,7 +46,7 @@ public:
     void pop() {
         if (!empty()) {
             Node *temp = head;
-            head = head->next;
+            head = head->next;  //新的head
             delete temp;
             --queueSize;
         }
@@ -74,14 +74,67 @@ public:
 
 
 
-//用数组实现
+//用数组实现循环链表
 
-typedef struct
-{
-    datatype data[MAXSIZE];
-    int front,rear;    //表示队列的头尾位置
-}Queue;
 
+template <class T>
+class arrayQueue {
+private:
+    static const int maxqueue = 10;
+    T entry[maxqueue + 1];  // 分配比maxqueue + 1的空间
+    // 实际上队列的可用空间还是maxque
+    int head;
+    int rear;
+    int queueSize;
+
+    bool full() const {
+        return (((rear + 1) % (maxqueue + 1)) == head)
+               && (queueSize == maxqueue);
+    }
+
+public:
+    arrayQueue() : head(0), rear(0), queueSize(0) {
+        for (int i = 0; i < maxqueue + 1; i++)
+            entry[i] = T();
+    }
+
+    // 下面所以求余都是为了让rear和front的范围限定在[0, 10]
+
+    void push(const T &val) {
+        if (!full()) {
+            entry[rear] = val;
+            rear = (rear + 1) % (maxqueue + 1);
+            ++queueSize;
+        }
+    }
+
+    void pop() {
+        if (!empty()) {
+            head = (head + 1) % (maxqueue + 1);
+            --queueSize;
+        }
+    }
+
+    T front() const {
+        if (!empty())
+            return entry[head];
+    }
+
+    T back() const {
+        if (!empty())
+            // rear-1是队列最后一个元素的位置
+            // rear-1可能是-1，所以将其跳转到maxqueue位置
+            return entry[(rear - 1 + (maxqueue + 1)) % (maxqueue + 1)];
+    }
+
+    bool empty() const {
+        return ((rear + 1) % (maxqueue + 1) == head) && (queueSize == 0);
+    }
+
+    int size() const {
+        return queueSize;
+    }
+};
 
 
 
